@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Raleway&display=swap");
+
+hmtl,
+body,
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-family: Raleway, Montserrat;
+}
+.para {
+  font-family: Poppins, monospace;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.hero {
+  background-color: gray;
+  background-blend-mode: multiply;
+  color: white;
+}
+
+.box {
+  @apply shadow-sm  shadow-black/50 hover:shadow-xl  transition-all  duration-1000 ease-in-out;
+}
+
+.fade {
+  opacity: 0;
+  transform: translateY(40px); /* Start position - move down by 20px */
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Add transform transition */
+}
+
+.fade.visible {
+  opacity: 1;
+  transform: translateY(0); /* End position - move to the original position */
+}
