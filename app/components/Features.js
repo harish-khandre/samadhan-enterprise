@@ -16,7 +16,7 @@ const Features = () => {
           <div className="flex flex-wrap w-full mb-20">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
               <motion.h1
-                className="sm:text-3xl lg:text-4xl font-medium heading mb-3 text-gray-900"
+                className=" text-4xl font-medium heading mb-3 text-gray-900"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
@@ -51,7 +51,7 @@ const Features = () => {
                   alt="content"
                 />
 
-                <h2 className="text-xl text-black font-semibold tracking-wide heading mb-1 px-6">
+                <h2 className="text-2xl text-black font-semibold tracking-wide heading mb-1 px-6">
                   Talent Acquisition & Selection
                 </h2>
                 <p className="leading-relaxed text-lg para px-6">
@@ -87,7 +87,7 @@ const Features = () => {
                   alt="content"
                 />
 
-                <h2 className="text-xl text-black font-semibold tracking-wide heading mb-1 px-6">
+                <h2 className="text-2xl text-black font-semibold tracking-wide heading mb-1 px-6">
                   Seamless Onboarding
                 </h2>
                 <p className="leading-relaxed text-lg para px-6">
@@ -120,7 +120,7 @@ const Features = () => {
                   alt="content"
                 />
 
-                <h2 className="text-xl text-black font-semibold tracking-wide heading mb-1 px-6">
+                <h2 className="text-2xl text-black font-semibold tracking-wide heading mb-1 px-6">
                   Efficient Payrolling
                 </h2>
                 <p className="leading-relaxed text-lg para px-6">
@@ -147,7 +147,7 @@ const Features = () => {
                   alt="content"
                 />
 
-                <h2 className="text-xl text-black font-semibold tracking-wide heading mb-1 px-6">
+                <h2 className="text-2xl text-black font-semibold tracking-wide heading mb-1 px-6">
                   Compliance & Statutory Management
                 </h2>
                 <p className="leading-relaxed text-lg para px-6">

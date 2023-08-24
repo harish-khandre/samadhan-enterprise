@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Raleway&display=swap");
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Roboto&display=swap');
+
 
 hmtl,
 body,
@@ -12,10 +14,10 @@ body,
 }
 
 .heading {
-  font-family: Raleway, Montserrat;
+  font-family: Raleway;
 }
 .para {
-  font-family: Poppins, monospace;
+  font-family: Roboto, sans-serif;
 }
 
 ::-webkit-scrollbar {

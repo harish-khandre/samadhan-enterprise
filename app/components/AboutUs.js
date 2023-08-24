@@ -12,7 +12,6 @@ const AboutUs = () => {
           src={fimg}
           alt="tableimg"
           className="object-cover w-full h-full md:h-auto"
-          layout="responsive"
           width={800}
           height={450}
         />
@@ -23,7 +22,7 @@ const AboutUs = () => {
               transition={{ duration: 1 }} >
           Who we are
         </motion.h1>
-        <p className="para text-lg lg:text-2xl font-medium tracking-wide text-left">
+        <p className=" text-lg lg:text-2xl tracking-wide text-left para">
           At Samadhan Enterprise, we are more than just a staffing agency. We
           are a team of dedicated experts committed to reshaping the way you
           approach human capital. We understand the challenges you face in

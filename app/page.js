@@ -8,11 +8,8 @@ import Fade from "./components/Fade";
 export default function Home() {
   return (
     <>
-   
       <Hero />
-      
-        <AboutUs />
-  
+      <AboutUs />
       <Fade>
         <Features />
       </Fade>
