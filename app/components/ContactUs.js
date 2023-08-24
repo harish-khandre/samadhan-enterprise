@@ -59,12 +59,7 @@ const ContactUs = () => {
               C-31A, 1st Floor, Dayal Bagh, Faridabad, Haryana-121009
             </span>
           </div>
-          <div className="m-2 md:m-4 para font-semibold">
-            Social Media <br />
-            <span className="heading font-medium tracking-wide">
-              Vipul@sharma
-            </span>
-          </div>
+          
         </motion.div>
       </div>
     </div>
