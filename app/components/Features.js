@@ -25,15 +25,7 @@ const Features = () => {
               </motion.h1>
               <div className="h-1 w-20 bg-black rounded"></div>
             </div>
-            <motion.p
-              className="lg:w-1/2 w-full leading-relaxed text-gray-800 text-xl para"
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1 }}
-            >
-              Discover the wide range of services we offer to elevate your
-              workforce strategy:
-            </motion.p>
+          
           </div>
           <div className="flex flex-wrap -m-4">
             <div className="xl:w-1/4 md:w-1/2 p-4">
