@@ -49,7 +49,7 @@ const ContactUs = () => {
           <div className="m-2 md:m-4 para font-semibold">
             Email <br />
             <span className="heading font-medium tracking-wide">
-              Victor_999333@rediffmail.com
+              victor_999333@rediffmail.com
             </span>
           </div>
           <div className="m-2 md:m-4 para font-semibold">

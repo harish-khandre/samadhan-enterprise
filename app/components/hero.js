@@ -38,7 +38,7 @@ const Hero = () => {
               with &nbsp;
               <span className="md:text-4xl lg:text-5xl text-white heading  title-font sm:text-4xl text-5xl mb-4 font-extrabold underline underline-offset-8 decoration-2 decoration-white ">
                 SAMADHAN ENTERPRISE
-              </span>{" "}
+              </span>
             </motion.h1>
             </div>
         </div>
